@@ -25,8 +25,8 @@ $("#barcodekode").focusout(function(){
             }
         })
     };
-})
-var specialKeys = new Array();
+});
+var specialKeys = [];
 specialKeys.push(8); //Backspace
 function IsNumeric(selector) {
     $(selector).keydown(function (e) {
